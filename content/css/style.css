@@ -4,6 +4,28 @@ body {
     background-size: 100%;
     background-position-y:20%;
     background-repeat: no-repeat;
+    color: #68b54d;
+}
+
+.main {
+    position: relative;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.750);
+    border:solid #29733f 5px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 65%;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, #00000080, #29733f, #00000080);
+}
+
+p {
+    padding: 5px;
 }
 
 @media only screen and (max-width: 640px) {
