@@ -9,13 +9,16 @@ body {
 
 .main {
     position: relative;
-    text-align: center;
     background-color: rgba(0, 0, 0, 0.750);
     border:solid #29733f 5px;
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
     max-width: 65%;
+}
+
+h1 {
+    text-align: center;
 }
 
 hr {
