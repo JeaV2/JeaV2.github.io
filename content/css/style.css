@@ -10,7 +10,7 @@ body {
 .main {
     position: relative;
     background-color: rgba(0, 0, 0, 0.750);
-    border:solid #29733f 5px;
+    border: solid #29733f 5px;
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
@@ -29,7 +29,14 @@ hr {
 }
 
 p {
-    padding: 5px;
+    margin-left: 15px;
+}
+
+.img img {
+    float: right;
+    margin: 0 15px 0 0;
+    border-radius: 8px;
+    border: #29733f 5px solid;
 }
 
 @media only screen and (max-width: 640px) {
@@ -37,5 +44,11 @@ p {
         background-image:url(../img/mbg.jpg);
         background-size: 100%;
         background-position-y: -25%;
+    }
+
+    .img img {
+        float: none;
+        display: block;
+        margin: 10px auto;
     }
 }
