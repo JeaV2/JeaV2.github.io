@@ -1,3 +1,12 @@
+@font-face {
+    font-family: SFDigitalReadout;
+    src: url(../font/SFDigitalReadout-Heavy.otf);
+}
+@font-face {
+    font-family: raster;
+    src: url(../font/raster.ttf);
+}
+
 body {
     background-color: #060606;
     background-image: url(../img/bg.jpg);
@@ -15,11 +24,21 @@ body {
     margin-left: auto;
     margin-right: auto;
     max-width: 75%;
+    height: 95vh;
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
+.main::-webkit-scrollbar {
+    display: none;
+}
+
 
 h1, h2, h3, h4, h5, h6 {
     text-align: center;
     color: #29733f;
+    font-family: SFDigitalReadout;
+    font-size: 2em;
 }
 
 hr {
@@ -30,6 +49,8 @@ hr {
 
 p {
     margin-left: 15px;
+    font-family: raster;
+    font-size: large;
 }
 
 .img img {
@@ -37,6 +58,7 @@ p {
     margin: 0 15px 0 0;
     border-radius: 8px;
     border: #29733f 5px solid;
+    height: 300px;
 }
 
 @media only screen and (max-width: 640px) {
@@ -50,5 +72,6 @@ p {
         float: none;
         display: block;
         margin: 10px auto;
+        height: 100px;
     }
 }
