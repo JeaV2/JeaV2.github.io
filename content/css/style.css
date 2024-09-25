@@ -65,7 +65,7 @@ p {
     body {
         background-image:url(../img/mbg.jpg);
         background-size: 100%;
-        background-position-y: -25%;
+        background-position-y: 65%;
     }
 
     .img img {
