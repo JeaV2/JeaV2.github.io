@@ -23,11 +23,11 @@ body {
     width: 100%; 
 }
 
-.main::-webkit-scrollbar {
+main::-webkit-scrollbar {
     display: none;
 }
 
-.nav {
+nav {
     position: relative;
     background-color: rgba(0, 0, 0, 0.750);
     border: solid #29733f 5px;
@@ -38,7 +38,7 @@ body {
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
-.nav::-webkit-scrollbar {
+nav::-webkit-scrollbar {
     display: none;
 }
 
@@ -73,7 +73,7 @@ a:hover {
     visibility: hidden;
 }
 
-.main {
+main {
     position: relative;
     background-color: rgba(0, 0, 0, 0.750);
     border: solid #29733f 5px;
@@ -85,7 +85,7 @@ a:hover {
     scrollbar-width: none;
 }
 
-.main::-webkit-scrollbar {
+main::-webkit-scrollbar {
     display: none;
 }
 
@@ -121,12 +121,12 @@ p {
     .container {
         display: block;
     }
-    .main {
+    main {
         height: auto;
         margin-left: auto;
         margin-right: auto;
     }
-    .nav {
+    nav {
         width: 80vw;
         height: auto;
         margin-left: auto;
