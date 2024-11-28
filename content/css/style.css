@@ -23,19 +23,6 @@ body {
     width: 100%; 
 }
 
-.main {
-    position: relative;
-    background-color: rgba(0, 0, 0, 0.750);
-    border: solid #29733f 5px;
-    border-radius: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 65%;
-    height: 95vh;
-    overflow: auto;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-}
 .main::-webkit-scrollbar {
     display: none;
 }
@@ -61,7 +48,6 @@ a {
     display: inline-block; 
     transition: color 1s ease-out, transform 1s ease-in;
 }
-
 a:hover {
     color: #68b54d;
     transform: scale(1.1); 
