@@ -81,7 +81,7 @@ h1 {
     background-color: #29733f;
     border: solid #68b54d 5px; 
 }
-.currentButton {
+#currentButton {
     background-color: #29733f;
     border: solid #68b54d 5px;
     color: #68b54d;
