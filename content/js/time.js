@@ -13,4 +13,3 @@ else if (hours >= 18 && hours < 24) {
     dagdeel.innerHTML = 'Goedenavond';
 }
 else { dagdeel.innerHTML = 'Goedenacht'; }
-
