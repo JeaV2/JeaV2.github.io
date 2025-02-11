@@ -40,26 +40,23 @@ main::-webkit-scrollbar {
     display: none;
 }
 
-#title {
-    grid-area: title;
+#title, .nav, main {
     background-color: var(--bg-color);
     border: solid var(--secondary-color) 5px;
     border-radius: 10px;
-    overflow: hidden;
+    overflow: scroll;
     -ms-overflow-style: none;
     scrollbar-width: none;
     box-shadow: var(--main-color) var(--box-b-s);
 }
 
+#title {
+    grid-area: title;
+    overflow: hidden;
+}
+
 .nav {
     grid-area: nav;
-    background-color: var(--bg-color);
-    border: solid var(--secondary-color) 5px;
-    border-radius: 10px;
-    overflow: auto;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-    box-shadow: var(--main-color) var(--box-b-s);
 }
 .nav::-webkit-scrollbar {
     display: none;
@@ -107,13 +104,6 @@ a:hover {
 
 main {
     grid-area: main;    
-    background-color: var(--bg-color);
-    border: solid var(--secondary-color) 5px;
-    border-radius: 10px;
-    overflow: auto;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-    box-shadow: var(--main-color) var(--box-b-s);
 }
 
 main::-webkit-scrollbar {
