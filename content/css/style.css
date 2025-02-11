@@ -27,7 +27,7 @@ body {
     margin-top: 3vh;
 }
 
-.main::-webkit-scrollbar {
+main::-webkit-scrollbar {
     display: none;
 }
 
@@ -100,7 +100,7 @@ a:hover {
     transform: scale(1.05);
 }
 
-.main {
+main {
     grid-area: main;    
     background-color: rgba(0, 0, 0, 0.750);
     border: solid #29733f 5px;
@@ -110,7 +110,7 @@ a:hover {
     scrollbar-width: none;
 }
 
-.main::-webkit-scrollbar {
+main::-webkit-scrollbar {
     display: none;
 }
 
@@ -145,7 +145,7 @@ p {
     .container {
         display: block;
     }
-    .main {
+    main {
         height: auto;
         margin-left: auto;
         margin-right: auto;
