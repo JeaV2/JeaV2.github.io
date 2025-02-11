@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jea - Creative Software Development</title>
+    <link rel="stylesheet" href="../content/css/style.css">
+    <link rel="stylesheet" href="../content/css/crt.css">
+    <link rel="stylesheet" href="../content/css/codeblock.css">
+    <link rel="stylesheet" href="../content/css/colors.css">
+    <link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@11.9.0/styles/base16/apathy.min.css">
+    <link rel="shortcut icon" href="../content/img/icon.gif" type="image/x-icon">
+
+    <!-- script -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="../content/js/links.js" defer></script>
+    <script src="../content/js/button.js" defer></script>
+    <script src="../content/js/time.js" defer></script>
+    <script src="https://unpkg.com/@highlightjs/cdn-assets@11.9.0/highlight.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="../content/js/fixcodeblock.js" defer></script>
+    <script>hljs.highlightAll();</script>
+</head>
+<body class="crt">
+    <div class="container">
+        <div id="title">
+            <h1>Jea - Technieken</h1>
+        </div>
+        <div class="nav">
+            <h1>Links</h1>
+            <hr>
+            <nav>
+                <div id="buttonContainer">
+                    <p>Something went wrong with the JavaScript. Please enable it to see the buttons.</p>
+                </div>
+            </nav>
+        </div>
+        <main>
+            <div class="header">
+                <h1><span id="dagdeel"></span>, beste lezer!</h1>
+            </div>
+            <div class="content">
+                Op deze pagina ga ik uitleggen welke <span class="js">JavaScript</span> en CSS technieken ik heb gebruikt voor het maken van deze pagina's. 
+            </div>
+            <div class="header">
+                <h1><span>Javascript</span> dag deel</h1>
+            </div>
+            <div class="content">
+                Aan de bovenkant van sommige pagina's staat een groet met het dagdeel erin. Dit is gedaan met <span class="js">JavaScript</span>.
+                Dit wordt gedaan door met <span class="js">JavaScript</span> de huidige tijd op te vragen en te kijken welk dagdeel het is met verschillende if-statements.
+                <pre>
+                    <div class="codeHeader"><span>JavaScript</span> <span><span class="minimize">&#x1F5D5;</span><span class="cancel">&#128473;</span></span></div>
+                    <code>
+                        const date = new Date();
+                        const hours = date.getHours();
+                        const dagdeel = document.getElementById('dagdeel');
+                        console.log('Time:', hours);
+
+                        if (hours >= 6 && hours < 12) {
+                            dagdeel.innerHTML = 'Goedemorgen';
+                        }
+                        else if (hours >= 12 && hours < 18) {
+                            dagdeel.innerHTML = 'Goedemiddag';
+                        }
+                        else if (hours >= 18 && hours < 24) {
+                            dagdeel.innerHTML = 'Goedenavond';
+                        }
+                        else { dagdeel.innerHTML = 'Goedenacht'; }
+                    </code>
+                </pre>
+            </div>
+            <div class="header">
+                <h1>Pagina layout</h1>
+            </div>
+            <div class="content">
+                De layout van de pagina's is gemaakt met <span class="css">CSS</span>. De pagina's zijn opgedeeld in een container, nav en main. 
+                De container is de gehele pagina, de nav is de navigatie aan de linkerkant en de main is de content in het midden van de pagina.
+                <br>
+                De container is een grid met 3 kolommen en 2 rijen. De kolommen zijn 1fr, 3fr en 1fr breed en de rijen zijn 1fr en 9fr hoog, zodat je een navigatie aan de linkerkant hebt en de content in het midden. 
+                <hr>
+                Ook omdat de kolommen 1fr, 3fr en 1fr zijn, is de content in het midden 3 keer zo breed als de navigatie aan de linkerkant.
+                <br>
+                De grid-template-areas zijn "nav title ." en "nav main .". Dit zorgt ervoor dat de navigatie aan de linkerkant staat en de content in het midden.
+                <br>
+                Er zit een ruimte van 1rem tussen de grid-items en de container is 95vh hoog en 3vh vanaf de bovenkant van de pagina.
+                <pre>
+                    <div class="codeHeader"><span>CSS</span> <span><span class="minimize">&#x1F5D5;</span><span class="cancel">&#128473;</span></span></div>
+                    <code>
+                        .container {
+                            display: grid;
+                            grid-template-columns: 1fr 3fr 1fr;
+                            grid-template-rows: 1fr 9fr;
+                            grid-template-areas: "nav title ." "nav main .";
+                            grid-gap: 1rem;
+                            height: 95vh;
+                            margin-top: 3vh;
+                        }
+                    </code>
+                </pre>
+                Dit is de <span class="css">CSS</span> voor de titel, navigatie en content van de pagina. <br>
+                De titel heeft een grid-area van title, de navigatie heeft een grid-area van nav en de content heeft een grid-area van main, dit zorgt ervoor dat de items op de juiste plek staan in de container.
+
+                <pre>
+                    <div class="codeHeader"><span>CSS</span> <span><span class="minimize">&#x1F5D5;</span><span class="cancel">&#128473;</span></span></div>
+                    <code>
+                        #title, .nav, main {
+                            background-color: var(--bg-color);
+                            border: solid var(--secondary-color) 5px;
+                            border-radius: 10px;
+                            overflow: scroll;
+                            -ms-overflow-style: none;
+                            scrollbar-width: none;
+                            box-shadow: var(--main-color) var(--box-b-s);
+                        }
+
+                        #title {
+                            grid-area: title;
+                            overflow: hidden;
+                        }
+
+                        .nav {
+                            grid-area: nav;
+                        }
+                        .nav::-webkit-scrollbar {
+                            display: none;
+                        }
+
+                        main {
+                            grid-area: main;
+                        }
+                    </code>
+                </pre>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
