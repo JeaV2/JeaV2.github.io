@@ -1,3 +1,12 @@
+:root{
+    /* color's */
+    --main-color: #68b54d;
+    --secondary-color: #29733f;
+    --bg-color: #000000bf;
+    /* box-shadow */
+    --box-b-s: 0.4em 0.4em 0.7em;
+}
+
 @font-face {
     font-family: SFDigitalReadout;
     src: url(../font/SFDigitalReadout-Heavy.otf);
@@ -13,7 +22,7 @@ body {
     background-size: 100%;
     background-position-y:20%;
     background-repeat: no-repeat;
-    color: #68b54d;
+    color: var(--main-color);
     font-size: 1.5rem;
 }
 
@@ -33,27 +42,28 @@ main::-webkit-scrollbar {
 
 #title {
     grid-area: title;
-    background-color: rgba(0, 0, 0, 0.750);
-    border: solid #29733f 5px;
+    background-color: var(--bg-color);
+    border: solid var(--secondary-color) 5px;
     border-radius: 10px;
     overflow: hidden;
     -ms-overflow-style: none;
     scrollbar-width: none;
+    box-shadow: var(--main-color) var(--box-b-s);
 }
 
-h1 {
-    padding: 1rem;
-    margin: 0;
+.header{
+    box-shadow: 0 8px 1em -10px var(--main-color);;
 }
 
 .nav {
     grid-area: nav;
-    background-color: rgba(0, 0, 0, 0.750);
-    border: solid #29733f 5px;
+    background-color: var(--bg-color);
+    border: solid var(--secondary-color) 5px;
     border-radius: 10px;
     overflow: auto;
     -ms-overflow-style: none;
     scrollbar-width: none;
+    box-shadow: var(--main-color) var(--box-b-s);
 }
 .nav::-webkit-scrollbar {
     display: none;
@@ -68,46 +78,46 @@ h1 {
 }
 
 .button {
-    margin: 0.5em;
+    margin-top: 1em;
     padding: 1em;
-    border: solid #29733f 5px;
+    border: solid var(--secondary-color) 5px;
     border-radius: 1em;
-    background-color: #68b54d;
+    background-color: var(--main-color);
     width:75%;
     text-align: center;
     transition: ease-in-out 1s;
 }
 .button:hover {
-    background-color: #29733f;
-    border: solid #68b54d 5px; 
+    background-color: var(--secondary-color);
+    border: solid var(--main-color) 5px; 
 }
 #currentButton {
-    background-color: #29733f;
-    border: solid #68b54d 5px;
-    color: #68b54d;
+    background-color: var(--secondary-color);
+    border: solid var(--main-color) 5px;
+    color: var(--main-color);
     transform: scale(1.05);
-
 }
 
 a {
-    color: #29733f;
+    color: var(--secondary-color);
     text-decoration: double underline;
     display: inline-block;
     transition: ease-in-out 1s;
 }
 a:hover {
-    color: #68b54d;
+    color: var(--main-color);
     transform: scale(1.05);
 }
 
 main {
     grid-area: main;    
-    background-color: rgba(0, 0, 0, 0.750);
-    border: solid #29733f 5px;
+    background-color: var(--bg-color);
+    border: solid var(--secondary-color) 5px;
     border-radius: 10px;
     overflow: auto;
     -ms-overflow-style: none;
     scrollbar-width: none;
+    box-shadow: var(--main-color) var(--box-b-s);
 }
 
 main::-webkit-scrollbar {
@@ -116,8 +126,10 @@ main::-webkit-scrollbar {
 
 
 h1, h2, h3, h4, h5, h6 {
+    padding: 1rem;
+    margin: 0;
     text-align: center;
-    color: #29733f;
+    color: var(--secondary-color);
     font-family: SFDigitalReadout;
     font-size: 3rem;
 }
@@ -125,19 +137,26 @@ h1, h2, h3, h4, h5, h6 {
 hr {
     border: 0;
     height: 1px;
-    background-image: linear-gradient(to right, #00000080, #29733f, #00000080);
+    background-image: linear-gradient(to right, #00000080, var(--secondary-color), #00000080);
 }
 
-p {
-    margin-left: 15px;
+p, .content {
+    padding: 1em;
     font-family: raster;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    padding-left: 3em;
+    list-style: square;
 }
 
 .img img {
     float: right;
     margin: 0 15px 0 0;
     border-radius: 8px;
-    border: #29733f 5px solid;
+    border: var(--secondary-color) 5px solid;
     height: 300px;
 }
 
