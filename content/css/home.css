@@ -1,4 +1,40 @@
+:root{
+    /* color's */
+    --main-color: #68b54d;
+    --secondary-color: #29733f;
+}
+
 .textLogo {
     height: 1em;
     padding-right: 0.2em;
+}
+
+#quote {
+    display: inline-block;
+    font-size: 1.5em;
+    font-style: italic;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    color: #29733f;
+    font-family: 'SFDigitalReadout';
+}
+
+button {
+    margin-top: 1em;
+    padding: 1em;
+    border: solid var(--secondary-color) 5px;
+    border-radius: 1em;
+    background-color: var(--main-color);
+    text-align: center;
+    transition: ease-in-out 1s;
+    font-family: 'raster';
+    font-size: 0.7em;
+    text-decoration: underline double;
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+button:hover {
+    background-color: var(--secondary-color);
+    border: solid var(--main-color) 5px;
+    color: var(--main-color);
 }
