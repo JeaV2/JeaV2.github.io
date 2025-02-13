@@ -79,6 +79,7 @@ main::-webkit-scrollbar {
     width:75%;
     text-align: center;
     transition: ease-in-out 1s;
+    font-family: 'raster';
 }
 .button:hover {
     background-color: var(--secondary-color);
