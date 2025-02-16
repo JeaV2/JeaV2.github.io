@@ -2,6 +2,7 @@ pre{
     margin: 0;
     padding: 0;
     white-space: normal;
+    margin-bottom: 1em;
 }
 
 .codeHeader{
@@ -13,6 +14,7 @@ pre{
     color: white;
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
+    box-shadow: #373737 10px 10px 10px; 
 }
 
 .minimize{
@@ -44,4 +46,6 @@ code {
     border-bottom-left-radius: 1em;
     white-space: pre;
     display: block;
+    margin-bottom: 1em;
+    box-shadow: #031a16 10px 10px 10px;
 }
