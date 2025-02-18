@@ -64,7 +64,7 @@ function animate() {
     linePyramid.rotation.y += 0.01;
 
     lineCube.rotation.x += 0.01;
-    lineCube.rotation.y += 0.01;
+    lineCube.rotation.y += -0.01;
 
     renderer.render(scene, camera);
 }
