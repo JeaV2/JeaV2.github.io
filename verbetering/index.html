@@ -18,6 +18,14 @@
     <script src="https://unpkg.com/@highlightjs/cdn-assets@11.9.0/highlight.min.js"></script>
     <script>hljs.highlightAll();</script>
     <script src="../content/js/fixcodeblock.js" defer></script>
+    <script type="importmap">
+        {
+          "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@v0.173.0/build/three.module.js"
+          }
+        }
+    </script>
+    <script type="module" src="../content/js/wireframes.js"></script>
 </head>
 <body class="crt">
     <div id="container">
@@ -76,6 +84,7 @@
                 </ul>
             </div>
         </main>
+        <div id="wireframe"></div>
     </div>
 </body>
 </html>
