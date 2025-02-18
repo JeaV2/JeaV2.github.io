@@ -15,6 +15,14 @@
     <script src="./content/js/button.js" defer></script>
     <script src="./content/js/time.js" defer></script>
     <script src="./content/js/quotes.js" defer></script>
+    <script type="importmap">
+        {
+          "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@v0.173.0/build/three.module.js"
+          }
+        }
+    </script>
+    <script type="module" src="./content/js/wireframes.js"></script>
 </head>
 <body class="crt">
     <div class="container">
@@ -57,6 +65,9 @@
                 <button onclick="randomQuote()">Nieuwe quote</button>
             </div>
         </main>
+        <div id="wireframe">
+
+        </div>
     </div>
 </body>
 </html>
