@@ -14,7 +14,7 @@ const geometrySphere = new THREE.SphereGeometry();
 const wireframeSphere = new THREE.WireframeGeometry(geometrySphere);
 const geometryPyramid = new THREE.ConeGeometry(4, 8, 4, 15);
 const wireframePyramid = new THREE.WireframeGeometry(geometryPyramid);
-const geometryCube = new THREE.BoxGeometry(1, 1, 1);
+const geometryCube = new THREE.BoxGeometry(1, 1, 1, 2, 2, 2);
 const wireframeCube = new THREE.WireframeGeometry(geometryCube);
 
 const lineSphere = new THREE.LineSegments(wireframeSphere);
