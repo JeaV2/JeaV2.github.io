@@ -6,5 +6,6 @@ if (buttonContainer) {
         <a href="../techniek/" class="button">Technieken</a>
         <a href="../verbetering/" class="button">verbeter punten</a>
         <a href="../interesse/" class="button">Interesse</a>
+        <a href="../reflectiefeedbackleerdoelen/" class="button">Reflectie, feedback en leerdoelen</a>
     `;
 }
