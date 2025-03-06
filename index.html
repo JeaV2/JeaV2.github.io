@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jea - Creative Software Development</title>
     <link rel="stylesheet" href="./content/css/style.css">
-    <link rel="stylesheet" href="./content/css/crt.css">
+    <link rel="stylesheet" href="./content/css/crt.css" id="switch">
     <link rel="stylesheet" href="./content/css/home.css">
     <link rel="stylesheet" href="./content/css/colors.css">
     <link rel="shortcut icon" href="./content/img/icon.gif" type="image/x-icon">
@@ -15,6 +15,7 @@
     <script src="./content/js/button.js" defer></script>
     <script src="./content/js/time.js" defer></script>
     <script src="./content/js/quotes.js" defer></script>
+    <script src="./content/js/togglecrt.js"></script>
     <script type="importmap">
         {
           "imports": {
@@ -23,6 +24,7 @@
         }
     </script>
     <script type="module" src="./content/js/wireframes.js"></script>
+    
 </head>
 <body class="crt">
     <div id="container">
@@ -60,7 +62,7 @@
                 Als je meer over mij wil weten kun je meer informatie over mij vinden op de <a href="./profiel/">Over mij</a> pagina. <br>
                 <div id="quote"></div>
                 <br>
-                <button onclick="randomQuote()">Nieuwe quote</button>
+                <button onclick="randomQuote()">Nieuwe quote</button> <button onclick="toggleCRT()">Zet het CRT effect aan/uit</button>
             </div>
         </main>
         <div id="wireframe">
