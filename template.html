@@ -13,6 +13,14 @@
     <script src="./content/js/links.js" defer></script>
     <script src="./content/js/button.js" defer></script>
     <script src="./content/js/togglecrt.js"></script>
+    <script type="importmap">
+        {
+          "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@v0.173.0/build/three.module.js"
+          }
+        }
+    </script>
+    <script type="module" src="../content/js/wireframes.js"></script>
 </head>
 <body class="crt">
     <div id="container">
@@ -34,6 +42,7 @@
                 Mijn <a href="profiel/">portfolio</a>
             </p>
         </main>
+        <div id="wireframe"></div>
     </div>
 </body>
 </html>
