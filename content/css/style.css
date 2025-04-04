@@ -73,7 +73,7 @@ nav::-webkit-scrollbar {
 }
 
 .button {
-    margin-top: 1em;
+    margin: 0.5em;
     padding: 1em;
     border: solid var(--secondary-color) 5px;
     border-radius: 1em;
@@ -87,7 +87,7 @@ nav::-webkit-scrollbar {
     background-color: var(--secondary-color);
     border: solid var(--main-color) 5px; 
 }
-#currentButton {
+.currentButton {
     background-color: var(--secondary-color);
     border: solid var(--main-color) 5px;
     color: var(--main-color);
@@ -160,31 +160,44 @@ ul{
 }
 
 @media only screen and (max-width: 640px) {
-    .container {
+    #container {
         display: block;
     }
     main {
         height: auto;
         margin-left: auto;
         margin-right: auto;
+        width: 90vw;
+        margin-bottom: 1em;
     }
     nav {
-        width: 80vw;
+        width: 90vw;
         height: auto;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 1em;
     }
 
     body {
         background-image:url(../img/mbg.jpg);
         background-size: 100%;
         background-position-y: 65%;
+        background-attachment: fixed;
+    }
+
+    #wireframe {
+        height: 40vh;
+    }
+    
+    #title {
+        display: none;
     }
 
     .img img {
         float: none;
         display: block;
         margin: 10px auto;
-        height: 100px;
+        width: 50%;
+        height: auto;
     }
 }
