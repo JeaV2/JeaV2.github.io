@@ -1,0 +1,73 @@
+.navbar {
+    background-color: var(--background-color) !important;
+    border-bottom: solid var(--secondary-color) 5px;
+    border-left: solid var(--secondary-color) 5px;
+    border-right: solid var(--secondary-color) 5px;
+    border-radius: 0 0 1em 1em;
+    box-shadow: var(--primary-color) 0.4em 0.4em 0.7em;
+}
+
+.navbar .navbar-brand {
+    color: var(--primary-color) !important;
+    font-family: SFDigitalReadout, sans-serif;
+    font-size: 2em;
+    margin-left: 0.5em;
+    transition: all 0.5s ease;
+}
+
+.navbar .navbar-brand:hover {
+    color: var(--secondary-color) !important;
+    text-shadow: var(--dark-gray) 0.2em 0.2em 0.5em;
+    transform: translateY(-0.1em);
+    transition: all 0.5s ease;
+}
+
+.navbar .nav-link {
+    color: var(--primary-color) !important;
+    font-family: SFDigitalReadout, sans-serif;
+    font-size: 2em;
+    background-color: var(--secondary-color);
+    margin: 0 0.3em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    padding-left: 0.5em !important;
+    padding-right: 0.5em !important;
+    border-radius: 0.3em;
+    border: solid var(--primary-color) 5px;
+    transition: all 0.5s ease;
+}
+
+.navbar .nav-link:hover {
+    background-color: var(--primary-color);
+    color: var(--dark-gray) !important;
+    border: solid var(--secondary-color) 5px;
+    box-shadow: var(--dark-gray) 0.2em 0.2em 0.5em;
+    transform: translateY(-0.1em);
+    transition: all 0.5s ease;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar .navbar-brand {
+        font-size: 0.8em;
+        margin-left: 0.2em;
+        white-space: normal;
+        line-height: 1.2;
+    }
+    
+    .navbar .nav-link {
+        font-size: 1.5em;
+        margin: 0.2em 0.3em;
+        text-align: center;
+    }
+
+    .custom-toggler {
+        margin-right: 0.2em !important;
+    }
+
+    .custom-toggler .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(104, 181, 77)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+    .custom-toggler.navbar-toggler {
+        border-color: var(--primary-color);
+    }
+}

@@ -1,0 +1,11 @@
+@import "https://www.nerdfonts.com/assets/css/webfont.css";
+
+@font-face {
+    font-family: SFDigitalReadout;
+    src: url(./sf-digital-readout-heavy.otf);
+}
+
+@font-face {
+    font-family: raster;
+    src: url(./raster.ttf);
+}

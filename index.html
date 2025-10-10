@@ -1,74 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jea - Creative Software Development</title>
-    <link rel="stylesheet" href="./content/css/style.css">
-    <link rel="stylesheet" href="./content/css/crt.css" id="switch">
-    <link rel="stylesheet" href="./content/css/home.css">
-    <link rel="stylesheet" href="./content/css/colors.css">
-    <link rel="shortcut icon" href="./content/img/icon.gif" type="image/x-icon">
-
-    <!-- script -->
-    <script src="./content/js/links.js" defer></script>
-    <script src="./content/js/button.js" defer></script>
-    <script src="./content/js/time.js" defer></script>
-    <script src="./content/js/quotes.js" defer></script>
-    <script src="./content/js/togglecrt.js" defer></script>
-    <script src="./content/js/mobile.js" defer></script>
-    <script type="importmap">
-        {
-          "imports": {
-            "three": "https://cdn.jsdelivr.net/npm/three@v0.173.0/build/three.module.js"
-          }
-        }
-    </script>
-    <script type="module" src="./content/js/wireframes.js"></script>
-    
+    <title>JeaV2, Creative Software Developer - Homepage.</title>
+    <link rel="shortcut icon" href="./media/img/icons/icon.gif" type="image/x-icon">
+    <!-- Stylesheets -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="./js/title.js" defer></script>
 </head>
-<body class="crt">
-    <div id="container">
-        <div id="title">
-            <h1>Jea - Student Creative Software Development</h1>
-        </div>
-        <nav>
-            <h1>Links</h1>
-            <hr>
-            <div id="buttonContainer">
-                <p>Something went wrong with the JavaScript. Please enable it to see the buttons.</p>
-            </div>
-        </nav>
-        <main>
-            <div class="header">
-                <h1><span id="dagdeel"></span>, beste lezer!</h1>
-            </div>
-            <div class="content">
-                Welkom op de website waar ik mijn skills in <img src="./content/img/html5logo.svg" alt="HTML logo" class="textLogo"><span class="html">HTML</span>, <img src="./content/img/csslogo.svg" alt="CSS logo" class="textLogo"><span class="css"">CSS</span> en <img src="./content/img/jslogo.png" alt="JavaScript logo" class="textLogo"><span class="js">JavaScript</span> laat zien.
-                <br>
-                Over het afgelopen half jaar heb ik veel bijgeleerd, en ben ik beter geworden in het ontwerpen en maken van websites! 
-                <br>
-                Ik heb er een aantal technieken bij geleerd, zoals:
-                <ul>
-                    <li>
-                        <span class="css">CSS</span> Grid en Flexbox.
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./media/img/icons/computer.gif" alt="" class="d-inline-block align-text-top">
+                JeaV2, Creative Software Developer
+            </a>
+            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
-                    <li>
-                        Het gebruiken van <span class="html">HTML5</span> elementen.
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
                     </li>
-                    <li>
-                        Het gebruik maken van functies en argumenten in <span class="js">JavaScript</span>.
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
                     </li>
                 </ul>
-                Als je meer over mij wil weten kun je meer informatie over mij vinden op de <a href="./profiel/">Over mij</a> pagina. <br>
-                <div id="quote"></div>
-                <br>
-                <button onclick="randomQuote()">Nieuwe quote</button> <button onclick="toggleCRT()">Zet het CRT effect aan/uit</button>
             </div>
-        </main>
-        <div id="wireframe">
-
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row g-3 my-3 align-items-stretch">
+            <div class="col-12 col-md-2">
+                <div class="box h-100">
+                    <img src="./media/img/selfie.jpg" class="selfie"
+                        alt="A picture of me, a girl smiling at the camera with blonde hair, blue eyes, wearing black lipstick and a heart-shaped amethyst crystal necklace. I have a long black top on.">
+                </div>
+            </div>
+            <div class="col-12 col-md-10">
+                <div class="box h-100 overflow-auto">
+                    <div class="header">
+                        <h1>Who am I?</h1>
+                    </div>
+                    <div class="content">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad magni voluptatem saepe inventore perferendis quis, tempore quos nemo eaque unde expedita esse maiores a et autem fugiat. Beatae, ut atque?2
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
+
 </html>
