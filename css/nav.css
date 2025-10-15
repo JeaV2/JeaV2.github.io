@@ -46,6 +46,14 @@
     transition: all 0.5s ease;
 }
 
+.navbar .active {
+    background-color: var(--primary-color);
+    color: var(--dark-gray) !important;
+    border: solid var(--secondary-color) 5px;
+    box-shadow: var(--dark-gray) 0.2em 0.2em 0.5em;
+    transform: translateY(-0.1em);
+}
+
 @media screen and (max-width: 768px) {
     .navbar .navbar-brand {
         font-size: 0.8em;
