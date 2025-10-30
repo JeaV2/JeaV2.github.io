@@ -4,7 +4,7 @@
 
 :root {
     /* color's */
-    --primary-color: rgb(104, 181, 77);
+    --primary-color: #68b54d;
     --secondary-color: #29733f;
     --dark-gray: #000000;
     --background-color: #000000bf;
@@ -19,7 +19,7 @@ body {
     margin: 0 2em;
 }
 
-.container-fluid {
+.container-fluid  {
     padding: 0 !important;
 }
 
@@ -69,5 +69,8 @@ body {
         margin: 1em auto;
         border: solid var(--primary-color) 3px;
         border-radius: 1em;
+    }
+    #wireframe {
+        display: none;
     }
 }
