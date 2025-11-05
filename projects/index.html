@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JeaV2, Creative Software Developer - Project.</title>
+    <link rel="shortcut icon" href="../media/img/icons/icon.gif" type="image/x-icon">
+    <!-- Stylesheets -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/projects.css">
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="../js/title.js" defer></script>
+    <script src="../js/projects.js" defer></script>
+
+    <!-- Metadata/Open Graph data -->
+    <meta property="og:title" content="JeaV2, Creative Software Developer">
+    <meta property="og:description" content="View my projects as a software developer.">
+    <meta property="og:image" content="../media/img/selfie.jpg">
+    <meta property="og:url" content="https://jeav2.github.io/">
+    <meta name="keywords"
+        content="Jea, JeaV2, Jeav2, portfolio, software developer, web developer, creative, programming, coding, html, css, javascript, php, python, git, github">
+    <meta name="author" content="Jea">
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="JeaV2, Creative Software Developer">
+    <meta name="twitter:description" content="View my projects as a software developer.">
+    <meta name="twitter:image" content="https://jeav2.github.io/media/img/selfie.jpg">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../">
+                <img src="../media/img/icons/computer.gif" alt="" class="d-inline-block align-text-top">
+                JeaV2, Creative Software Developer
+            </a>
+            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../cv/">CV</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row g-3 my-3 align-items-stretch">
+            <div class="col-12 col-md-12">
+                <div class="box h-100 overflow-auto">
+                    <div class="header">
+                        <h1>Projects</h1>
+                    </div>
+                    <div class="content">
+                        <p>
+                            Here you can find a selection of my projects showcasing my skills and creativity as a
+                            software developer.
+                            <br>
+                            Some of these projects are solo endeavors, and some are made in collaboration with
+                            classmates or friends.
+                        </p>
+                    </div>
+                    <div class="header">
+                        <h2>Project List</h2>
+                    </div>
+                    <div class="content">
+                        <div id="projects" class="d-flex flex-wrap gap-3 justify-content-center mt-3 mb-3">
+                            <!-- Projects will be dynamically loaded here -->
+                            <div class="error-message alert alert-danger" role="alert">
+                                You either have JavaScript disabled, or no projects were found.
+                                <br>
+                                Please enable JavaScript and refresh the page.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

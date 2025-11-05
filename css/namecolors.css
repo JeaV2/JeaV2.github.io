@@ -1,0 +1,49 @@
+.name {
+    color: #8A2BE2;
+    font-weight: bold;
+}
+
+.html {
+    color: #F16524;
+    font-weight: bold;
+}
+
+.css {
+    color: #66309A;
+    font-weight: bold;
+}
+
+.js {
+    color: #F7E018;
+    font-weight: bold;
+}
+
+.php {
+    color: #787CB5;
+    font-weight: bold;
+}
+
+.py {
+    background: linear-gradient(to right, #357FB9, #FFC42D);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+.bootstrap {
+    color: #7608F6;
+    font-weight: bold;
+}
+
+.git {
+    color: #F15030;
+    font-weight: bold;
+}
+.github {
+    color: #171515;
+    font-weight: bold;
+    background-color: #29733faf;
+    border-radius: 4px;
+    padding-left: 4px;
+}

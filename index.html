@@ -1,74 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jea - Creative Software Development</title>
-    <link rel="stylesheet" href="./content/css/style.css">
-    <link rel="stylesheet" href="./content/css/crt.css" id="switch">
-    <link rel="stylesheet" href="./content/css/home.css">
-    <link rel="stylesheet" href="./content/css/colors.css">
-    <link rel="shortcut icon" href="./content/img/icon.gif" type="image/x-icon">
-
-    <!-- script -->
-    <script src="./content/js/links.js" defer></script>
-    <script src="./content/js/button.js" defer></script>
-    <script src="./content/js/time.js" defer></script>
-    <script src="./content/js/quotes.js" defer></script>
-    <script src="./content/js/togglecrt.js" defer></script>
-    <script src="./content/js/mobile.js" defer></script>
+    <title>JeaV2, Creative Software Developer - Homepage.</title>
+    <link rel="shortcut icon" href="./media/img/icons/icon.gif" type="image/x-icon">
+    <!-- Stylesheets -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="./js/title.js" defer></script>
+    <script src="./js/day.js" defer></script>
     <script type="importmap">
-        {
-          "imports": {
-            "three": "https://cdn.jsdelivr.net/npm/three@v0.173.0/build/three.module.js"
-          }
+    {
+        "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js"
         }
+    }
     </script>
-    <script type="module" src="./content/js/wireframes.js"></script>
-    
+    <script src="./js/three/wireframes.js" type="module" defer></script>
+    <!-- Metadata/Open Graph data -->
+    <meta property="og:title" content="JeaV2, Creative Software Developer">
+    <meta property="og:description" content="Welcome to my portfolio website.">
+    <meta property="og:image" content="./media/img/selfie.jpg">
+    <meta property="og:url" content="https://jeav2.github.io/">
+    <meta name="keywords" content="Jea, JeaV2, Jeav2, portfolio, software developer, web developer, creative, programming, coding, html, css, javascript, php, python, git, github">
+    <meta name="author" content="Jea">
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="JeaV2, Creative Software Developer">
+    <meta name="twitter:description" content="Welcome to my portfolio website.">
+    <meta name="twitter:image" content="https://jeav2.github.io/media/img/selfie.jpg">
 </head>
-<body class="crt">
-    <div id="container">
-        <div id="title">
-            <h1>Jea - Student Creative Software Development</h1>
-        </div>
-        <nav>
-            <h1>Links</h1>
-            <hr>
-            <div id="buttonContainer">
-                <p>Something went wrong with the JavaScript. Please enable it to see the buttons.</p>
-            </div>
-        </nav>
-        <main>
-            <div class="header">
-                <h1><span id="dagdeel"></span>, beste lezer!</h1>
-            </div>
-            <div class="content">
-                Welkom op de website waar ik mijn skills in <img src="./content/img/html5logo.svg" alt="HTML logo" class="textLogo"><span class="html">HTML</span>, <img src="./content/img/csslogo.svg" alt="CSS logo" class="textLogo"><span class="css"">CSS</span> en <img src="./content/img/jslogo.png" alt="JavaScript logo" class="textLogo"><span class="js">JavaScript</span> laat zien.
-                <br>
-                Over het afgelopen half jaar heb ik veel bijgeleerd, en ben ik beter geworden in het ontwerpen en maken van websites! 
-                <br>
-                Ik heb er een aantal technieken bij geleerd, zoals:
-                <ul>
-                    <li>
-                        <span class="css">CSS</span> Grid en Flexbox.
+
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./media/img/icons/computer.gif" alt="" class="d-inline-block align-text-top">
+                JeaV2, Creative Software Developer
+            </a>
+            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
-                    <li>
-                        Het gebruiken van <span class="html">HTML5</span> elementen.
+                    <li class="nav-item">
+                        <a class="nav-link" href="./projects/">Projects</a>
                     </li>
-                    <li>
-                        Het gebruik maken van functies en argumenten in <span class="js">JavaScript</span>.
+                    <li class="nav-item">
+                        <a class="nav-link" href="./cv/">CV</a>
                     </li>
                 </ul>
-                Als je meer over mij wil weten kun je meer informatie over mij vinden op de <a href="./profiel/">Over mij</a> pagina. <br>
-                <div id="quote"></div>
-                <br>
-                <button onclick="randomQuote()">Nieuwe quote</button> <button onclick="toggleCRT()">Zet het CRT effect aan/uit</button>
             </div>
-        </main>
-        <div id="wireframe">
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row g-3 my-3 align-items-stretch">
+            <div class="col-12 col-md-2">
+                <div class="box h-100">
+                    <img src="./media/img/selfie.jpg" class="selfie"
+                        alt="A picture of me, a girl smiling at the camera with blonde hair, blue eyes, wearing black lipstick and a heart-shaped amethyst crystal necklace. I have a long black top on.">
+                </div>
+            </div>
+            <div class="col-12 col-md-10">
+                <div class="box h-100 overflow-auto">
+                    <div class="header">
+                        <h1>Who am I?</h1>
+                    </div>
+                    <div class="content">
+                        <p>
+                            <span id="dayPart">Good day,</span> I am <span class="name">Jea,</span> a student Creative
+                            Software Developer at the Graphic Lyceum Rotterdam. I am currently in my second year!
+                            <br>
+                            Before I started at the Graphic Lyceum, I was already interested in programming and web
+                            development. I followed a course on <span class="py">python</span> in highschool and I had
+                            been learning <span class="html">HTML</span>,
+                            <span class="js">JavaScript</span> and <span class="css">CSS</span> on my own at school I
+                            have also started learning <span class="php">PHP</span>.
+                            <br>
+                            Besides programming and web development, I also like <b>gaming</b>, <b>drawing pixel
+                                art</b>, <b>reading</b> and <b>sleeping</b>!
+                            <br>
+                            My favorite games right now are <i>Minecraft</i>, <i>Noita</i> and <i>NIGHT-RUNNERS
+                                PROLOGUE</i>.
+                            <br>
+                            In my free time I work on small personal projects, like websites and pixel art. When I have
+                            the chance, I also skateboard from time to time.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row g-3 my-3 align-items-stretch">
+            <div class="col-12 col-md-10">
+                <div class="box h-100 overflow-auto">
+                    <div class="header">
+                        <h1>What can I do?</h1>
+                    </div>
+                    <div class="content">
+                        <p>
+                            I have been learning <span class="html">HTML</span>, <span class="css">CSS</span> and
+                            <span class="js">JavaScript</span> for two years at the Graphic Lyceum and a bit longer
+                            on
+                            my own. I know how to make a website from scratch, and I am familiar with <span
+                                class="js">DOM manipulation</span>, <span class="js">fetch API</span> and <span
+                                class="js">asynchronous programming</span>.
+                            <br>
+                            I have also been learning <span class="php">PHP</span> for about half a year, and I know
+                            how to make a simple backend with it. I have made some small school projects with <span
+                                class="php">PHP</span> and Sqlite and PhpMyAdmin databases.
+                            <br>
+                            I also know how to use <span class="js">JavaScript libraries</span> like P5.js and
+                            Three.js to create interactive graphics and animations.
+                            <br>
+                            I also have experience with <span class="css">CSS</span> frameworks like <span
+                                class="bootstrap">Bootstrap</span> and I know how to use <span
+                                class="git">Git</span> and <span class="github">GitHub</span> for version control.
+                            <br>
+                            <sup>(This website is made with <span class="bootstrap">bootstrap</span>, <span
+                                    class="html">HTML</span>, some custom <span class="css">CSS</span> and some
+                                <span class="js">JavaScript</span>)</sup>
+                            <br>
+                            I also have a small bit of experience with <span class="py">Python</span>. I have made
+                            some small projects with <span class="py">Python</span>, I have mostly used it for small
+                            personal projects and one school project.
+                            <br>
+                            I am always eager to learn new things and improve my skills. I am currently learning
+                            more about <span class="php">PHP</span>, databases and EcmaScript 6.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-2">
+                <div class="box h-100" id="wireframe">
+                </div>
+            </div>
+        </div>
+        
+        <div class="row g-3 my-3 align-items-stretch">
+            <div class="col-12 col-md-6">
+                <div class="box h-100">
+                    <div class="header">
+                        <h1>Where I would like to be</h1>
+                    </div>
+                    <div class="content">
+                        <p>
+                            In the future I would like to work somewhere as a web developer or a software developer.
+                            I prefer working on the backend and working with actual programming languages.
+                            However, I also like to work on the frontend and make things look nice from time to time <sup>(as you can see on this website)</sup>.
+                        </p>
+                    </div>
+                </div>
 
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="box h-100">
+                    <div class="header">
+                        <h1>Contact me</h1>
+                    </div>
+                    <div class="content">
+                        <p>
+                            You can contact me via email at: <a href="mailto:102710@glr.nl">102710@glr.nl</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
+
 </html>
