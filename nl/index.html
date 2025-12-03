@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JeaV2, Creative Software Developer - Homepage.</title>
+    <link rel="shortcut icon" href="../media/img/icons/icon.gif" type="image/x-icon">
+    <!-- Stylesheets -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="../js/title.js" defer></script>
+    <script src="./js/dagdeel.js" defer></script>
+    <script>console.log('page URL:', location.href);</script>
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js"
+        }
+    }
+    </script>
+    <script src="../js/three/wireframes.js" type="module" defer></script>
+    <!-- Metadata/Open Graph data -->
+    <meta property="og:title" content="JeaV2, Creative Software Developer">
+    <meta property="og:description" content="Welkom op mijn portfolio website.">
+    <meta property="og:image" content="../media/img/selfie.jpg">
+    <meta property="og:url" content="https://jeav2.github.io/">
+    <meta name="keywords"
+        content="Jea, JeaV2, Jeav2, portfolio, software developer, web developer, creative, programming, coding, html, css, javascript, php, python, git, github">
+    <meta name="author" content="Jea">
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="JeaV2, Creative Software Developer">
+    <meta name="twitter:description" content="Welkom op mijn portfolio website.">
+    <meta name="twitter:image" content="https://jeav2.github.io/media/img/selfie.jpg">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="../media/img/icons/computer.gif" alt="" class="d-inline-block align-text-top">
+                JeaV2, Creative Software Developer
+            </a>
+            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./projecten/">Projecten</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./cv/">CV</a>
+                    </li>
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Pop
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                        </ul>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row g-3 my-3 align-items-stretch">
+            <div class="col-12 col-md-2">
+                <div class="box h-100">
+                    <img src="../media/img/selfie.jpg" class="selfie"
+                        alt="Een foto van een blonde glimlachende jongedame met zwarte lippenstift. Ze draagt een zwarte lange top en een ketting met een amethist hanger in de vorm van een hart.">
+                </div>
+            </div>
+            <div class="col-12 col-md-10">
+                <div class="box h-100 overflow-auto">
+                    <div class="header">
+                        <h1>Wie ben ik?</h1>
+                    </div>
+                    <div class="content">
+                        <p>
+                            <span id="dagdeel">Goedendag,</span> Ik ben <span class="name">Jea,</span> een student
+                            Creative
+                            Software Developer aan het Grafisch Lyceum Rotterdam. Ik zit momenteel in mijn tweede jaar!
+                            <br>
+                            Voordat ik begon aan het Grafisch Lyceum, was ik al geïnteresseerd in programmeren en web
+                            ontwikkeling. Ik volgde een cursus over <span class="py">python</span> op de middelbare
+                            school en ik was
+                            al bezig met het leren van <span class="html">HTML</span>,
+                            <span class="js">JavaScript</span> en <span class="css">CSS</span> in mijn vrije tijd.
+                            <br>
+                            Op school heb ik mijn skills in <span class="html">HTML</span>, <span class="css">CSS</span>
+                            en <span class="js">JavaScript</span> verder ontwikkeld. Ook ben heb ik kennis gemaakt met
+                            <span class="php">PHP</span> en databases.
+                            <br>
+                            Naast programmeren en webontwikkeling hou ik ook van <b>gamen</b>, <b>pixel art tekenen</b>,
+                            <b>lezen</b> en <b>slapen</b>!
+                            <br>
+                            Mijn favoriete games op dit moment zijn <i>Minecraft</i>, <i>Noita</i> en <i>NIGHT-RUNNERS
+                                PROLOGUE</i>.
+                            <br>
+                            In mijn vrije tijd werk ik aan kleine persoonlijke projecten, zoals websites en pixel art.
+                            Wanneer ik de kans krijg, skate ik ook af en toe.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row g-3 my-3 align-items-stretch">
+            <div class="col-12 col-md-10">
+                <div class="box h-100 overflow-auto">
+                    <div class="header">
+                        <h1>Wat kan ik?</h1>
+                    </div>
+                    <div class="content">
+                        <p>
+                            Ik ben al twee jaar bezig met het leren van <span class="html">HTML</span>, <span
+                                class="css">CSS</span> en
+                            <span class="js">JavaScript</span> op het Grafisch Lyceum en iets langer
+                            in mijn eigen tijd.
+                            Ik weet hoe ik een website vanaf niks moet maken, en ik ben bekend met
+                            <span class="js">DOM-manipulatie</span>, <span class="js">fetch API</span> en <span
+                                class="js">asynchrone programmering</span>.
+                            <br>
+                            Ik ben ook ongeveer anderhalf jaar bezig met het leren van <span class="php">PHP</span>, en
+                            ik weet
+                            hoe ik een eenvoudige backend ermee kan maken. Ik heb enkele kleine schoolprojecten gemaakt
+                            met <span class="php">PHP</span> en Sqlite- en PhpMyAdmin-databases.
+                            <br>
+                            Ik weet ook hoe ik <span class="js">JavaScript libraries</span> zoals P5.js en
+                            Three.js kan gebruiken om interactieve graphics en animaties te maken.
+                            <br>
+                            Ik heb ook ervaring met <span class="css">CSS</span> frameworks zoals <span
+                                class="bootstrap">Bootstrap</span> en ik weet hoe ik <span class="git">Git</span>
+                            en <span class="github">GitHub</span> kan gebruiken voor versiebeheer.
+                            <br>
+                            <sup>(Deze website is gemaakt met <span class="bootstrap">bootstrap</span>, <span
+                                    class="html">HTML</span>, wat custom <span class="css">CSS</span> en wat
+                                <span class="js">JavaScript</span>)</sup>
+                            <br>
+                            Ik heb ook wat ervaring met <span class="py">Python</span>. Ik heb enkele kleine projecten
+                            gemaakt met <span class="py">Python</span>, ik heb het vooral gebruikt voor kleine
+                            persoonlijke projecten en één schoolproject.
+                            personal projects and one school project.
+                            <br>
+                            Ik ben altijd enthousiast om nieuwe dingen te leren en mijn vaardigheden te verbeteren.
+                            Momenteel leer ik meer over <span class="php">PHP</span>, databases en EcmaScript 6.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-2">
+                <div class="box h-100" id="wireframe">
+                </div>
+            </div>
+        </div>
+
+        <div class="row g-3 my-3 align-items-stretch">
+            <div class="col-12 col-md-6">
+                <div class="box h-100">
+                    <div class="header">
+                        <h1>Waar ik wil zijn</h1>
+                    </div>
+                    <div class="content">
+                        <p>
+                            In de toekomst zou ik graag ergens als webontwikkelaar of softwareontwikkelaar willen
+                            werken. Ik werk het liefst aan de backend en met echte programmeertalen. Ik vind het echter
+                            ook leuk om aan de frontend te werken en dingen er af en toe mooi uit te laten zien
+                            <sup>(zoals je op deze website kunt zien)</sup>.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="box h-100">
+                    <div class="header">
+                        <h1>Neem contact op!</h1>
+                    </div>
+                    <div class="content">
+                        <p>
+                            Je kunt contact met me opnemen via e-mail op: <a href="mailto:102710@glr.nl">102710@glr.nl</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
