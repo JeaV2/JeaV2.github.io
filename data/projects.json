@@ -1,33 +1,45 @@
 {
     "projects": [
         {
-            "img": "../media/img/project/jeav2.png",
+            "img": "media/img/project/jeav2.png",
             "title": "Portfolio Website",
-            "description": "My personal portfolio website with information about me, my skills and my projects.",
+            "description": {"lang": {
+                "en": "My personal portfolio website with information about me, my skills and my projects.",
+                "nl": "Mijn persoonlijke portfolio website met informatie over mij, mijn vaardigheden en mijn projecten."
+            }},
             "link": "https://jeav2.github.io/",
             "github": "https://github.com/JeaV2/JeaV2.github.io",
             "tags": ["HTML", "CSS", "Bootstrap", "JavaScript"]
         },
         {
-            "img": "../media/img/project/gooberos.jpg",
+            "img": "media/img/project/gooberos.jpg",
             "title": "Goober OS",
-            "description": "A linux like \"Web OS\" command line operating system made in JavaScript, HTML and CSS for a make-a-thon.",
+            "description": {"lang": {
+                "en": "A linux like \"Web OS\" command line operating system made in JavaScript, HTML and CSS for a make-a-thon.",
+                "nl": "Een Linux-achtige \"Web OS\" commandoregel besturingssysteem gemaakt in JavaScript, HTML en CSS voor een make-a-thon van school."
+            }},
             "link": "https://jeav2.github.io/gooberos/",
             "github": "https://github.com/JeaV2/gooberos",
             "tags": ["JavaScript", "HTML", "CSS"]
         },
         {
-            "img": "../media/img/project/colorcat.png",
+            "img": "media/img/project/colorcat.png",
             "title": "Color Cat",
-            "description": "A command line script made in python that displays formatted text in colors in the terminal.",
+            "description": {"lang": {
+                "en": "A command line script made in python that displays formatted text in colors in the terminal.",
+                "nl": "Een opdrachtregel script gemaakt in Python dat geformatteerde tekst in kleuren in de terminal weergeeft."
+            }},
             "link": "",
             "github": "https://github.com/AstralVRZ/colorcat",
             "tags": ["Python", "CLI", "Terminal"]
         },
         {
-            "img": "../media/img/project/mtm.png",
+            "img": "media/img/project/mtm.png",
             "title": "Mission to Mars",
-            "description": "A concept for an inflight entertainment system for spaceflights to mars, I made this with a team of classmates for a school project.",
+            "description": {"lang": {
+                "en": "A concept for an inflight entertainment system for spaceflights to mars, I made this with a team of classmates for a school project.",
+                "nl": "Een concept voor een inflight entertainment systeem voor ruimtevluchten naar Mars, ik heb dit gemaakt met een team van klasgenoten voor een schoolproject."
+            }},
             "link": "https://jeav2.github.io/teamblue/",
             "github": "https://github.com/JeaV2/teamblue",
             "tags": ["JavaScript", "HTML", "CSS"]

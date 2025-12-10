@@ -1,6 +1,16 @@
+import { getLang } from './getlang.js';
+
 const projectsContainer = document.getElementById('projects');
 
-const fetchProjects = async () => await (await fetch('../data/projects.json')).json();
+let lang = getLang();
+let pathPrefix;
+if (lang === 'en') {
+    pathPrefix = '../';
+} else {
+    pathPrefix = '../../';
+}
+
+const fetchProjects = async () => await (await fetch(`${pathPrefix}data/projects.json`)).json();
 const warn = (project, field) => console.warn(`No ${field} for project: ${project}`);
 
 async function createProjectCards() {
@@ -15,13 +25,13 @@ async function createProjectCards() {
             
             if (project.img) {
                 cardHTML += `
-                <img src="${project.img}" class="card-img-top" alt="${project.title} img">
+                <img src="${pathPrefix+project.img}" class="card-img-top" alt="${project.title} img">
             `;
             } else {warn(project.title, 'image');}
             cardHTML += `
             <div class="card-body">
                 <h5 class="card-title">${project.title}</h5>
-                <p class="card-text">${project.description}</p>
+                <p class="card-text">${project.description.lang[lang]}</p>
             `;
             for (const tag of project.tags) {
                 cardHTML += `<span class="badge badge-tag text-dark me-1 mb-1">${tag}</span>`;
