@@ -41,9 +41,9 @@
     font-weight: bold;
 }
 .github {
-    color: #171515;
+    background: linear-gradient(in oklch, #892793, #492779);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-weight: bold;
-    background-color: #29733faf;
-    border-radius: 4px;
-    padding-left: 4px;
 }
