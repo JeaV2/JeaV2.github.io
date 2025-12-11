@@ -2,13 +2,24 @@ import { getLang } from './getlang.js';
 
 const projectsContainer = document.getElementById('projects');
 
-let lang = getLang();
+const lang = getLang();
 let pathPrefix;
 if (lang === 'en') {
     pathPrefix = '../';
 } else {
     pathPrefix = '../../';
 }
+
+const buttonText = {
+    'en': {
+        viewProject: 'View Project',
+        viewOnGitHub: 'View on GitHub'
+    },
+    'nl': {
+        viewProject: 'Bekijk Project',
+        viewOnGitHub: 'Bekijk op GitHub'
+    }
+};
 
 const fetchProjects = async () => await (await fetch(`${pathPrefix}data/projects.json`)).json();
 const warn = (project, field) => console.warn(`No ${field} for project: ${project}`);
@@ -39,11 +50,11 @@ async function createProjectCards() {
             cardHTML += `<br>`;
 
             if (project.link) {
-                cardHTML += `<a href="${project.link}" class="btn btn-primary" target="_blank" rel="noopener noreferrer">View Project</a>`;
+                cardHTML += `<a href="${project.link}" class="btn btn-primary" target="_blank" rel="noopener noreferrer">${buttonText[lang].viewProject}</a>`;
             } else {console.warn(`No link for project: ${project.title}`);}
 
             if (project.github) {
-                cardHTML += `<a href="${project.github}" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">View on GitHub</a>`;
+                cardHTML += `<a href="${project.github}" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">${buttonText[lang].viewOnGitHub}</a>`;
             } else {console.warn(`No GitHub link for project: ${project.title}`);}
             
             cardHTML += `</div>`;
