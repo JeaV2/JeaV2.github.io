@@ -26,7 +26,7 @@
             "img": "media/img/project/colorcat.png",
             "title": "Color Cat",
             "description": {"lang": {
-                "en": "A command line script made in python that displays formatted text in colors in the terminal.",
+                "en": "A command line script made in Python that displays formatted text in colors in the terminal.",
                 "nl": "Een opdrachtregel script gemaakt in Python dat geformatteerde tekst in kleuren in de terminal weergeeft."
             }},
             "link": "",
