@@ -18,6 +18,10 @@ const buttonText = {
     'nl': {
         viewProject: 'Bekijk Project',
         viewOnGitHub: 'Bekijk op GitHub'
+    },
+    'de': {
+        viewProject: 'Projekt ansehen',
+        viewOnGitHub: 'Auf GitHub ansehen'
     }
 };
 

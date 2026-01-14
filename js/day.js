@@ -18,6 +18,13 @@ const dayPartLangs = {
         evening: 'Goedenavond,',
         night: 'Goedenacht,',
         default: 'Goede dag,'
+    },
+    'de': {
+        morning: 'Guten Morgen,',
+        afternoon: 'Guten Tag,',
+        evening: 'Guten Abend,',
+        night: 'Gute Nacht,',
+        default: 'Guten Tag,'
     }
 };
 

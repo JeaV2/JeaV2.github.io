@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="de">
 
 <head>
     <meta charset="UTF-8">
@@ -10,6 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="./css/warn.css">
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
@@ -26,7 +27,7 @@
     <script src="../js/three/wireframes.js" type="module" defer></script>
     <!-- Metadata/Open Graph data -->
     <meta property="og:title" content="JeaV2, Creative Software Developer">
-    <meta property="og:description" content="Welkom op mijn portfolio website.">
+    <meta property="og:description" content="Willkommen auf meiner Portfolio-Website.">
     <meta property="og:image" content="../media/img/selfie.jpg">
     <meta property="og:url" content="https://jeav2.github.io/">
     <meta name="keywords"
@@ -35,7 +36,7 @@
     <!-- Twitter Card data -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="JeaV2, Creative Software Developer">
-    <meta name="twitter:description" content="Welkom op mijn portfolio website.">
+    <meta name="twitter:description" content="Willkommen auf meiner Portfolio-Website.">
     <meta name="twitter:image" content="https://jeav2.github.io/media/img/selfie.jpg">
 </head>
 
@@ -57,7 +58,7 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./projecten/">Projecten</a>
+                        <a class="nav-link" href="./projekte/">Projekte</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./cv/">CV</a>
@@ -65,12 +66,12 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
-                            Talen
+                            Sprache
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="../">EN</a></li>
-                            <li><a class="dropdown-item active">NL</a></li>
-                            <li><a class="dropdown-item" href="../de/">DE</a></li>
+                            <li><a class="dropdown-item" href="../nl/">NL</a></li>
+                            <li><a class="dropdown-item active">DE</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -85,19 +86,19 @@
                         alt="Een foto van een blonde glimlachende jongedame met zwarte lippenstift. Ze draagt een zwarte lange top en een ketting met een amethist hanger in de vorm van een hart.">
                 </div>
             </div>
-            <div class="col-12 col-md-10">
+            <div class="col-12 col-md-7">
                 <div class="box h-100 overflow-auto">
                     <div class="header">
-                        <h1>Wie ben ik?</h1>
+                        <h1>Wer bin ich?</h1>
                     </div>
                     <div class="content">
                         <p>
-                            <span id="dayPart">Goedendag,</span> Ik ben <span class="name">Jea,</span> een student
+                            <span id="dayPart">Guten Tag,</span> Ich bin <span class="name">Jea,</span> ein Student
                             Creative
-                            Software Developer aan het Grafisch Lyceum Rotterdam. Ik zit momenteel in mijn tweede jaar!
+                            Software Developer am Grafisch Lyceum Rotterdam. Ich bin derzeit im zweiten Jahr!
                             <br>
                             Voordat ik begon aan het Grafisch Lyceum, was ik al geïnteresseerd in programmeren en web
-                            ontwikkeling. Ik volgde een cursus over <span class="py">Python</span> op de middelbare
+                            ontwikkeling. Ik volgde een cursus over <span class="py">python</span> op de middelbare
                             school en ik was
                             al bezig met het leren van <span class="html">HTML</span>,
                             <span class="js">JavaScript</span> en <span class="css">CSS</span> in mijn vrije tijd.
@@ -118,13 +119,28 @@
                     </div>
                 </div>
             </div>
+            <div class="col-12 col-md-3 mt-3 warn-container">
+                <div class="alert alert-warning h-100" role="alert">
+                    <div class="alert-text">
+                        <h1 class="text-center">Achtung!</h1>
+                        <p>
+                            Mein Deutsch ist nicht sehr gut.
+                            <br>
+                            Ich verstehe und kann mehr lesen und verstehen als schreiben und sprechen.
+                            <br>
+                            Entschuldigung für eventuelle Fehler!
+                            <span class="btn"></span>
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="row g-3 my-3 align-items-stretch">
             <div class="col-12 col-md-10">
                 <div class="box h-100 overflow-auto">
                     <div class="header">
-                        <h1>Wat kan ik?</h1>
+                        <h1>Was kann ich tun?</h1>
                     </div>
                     <div class="content">
                         <p>
@@ -173,7 +189,7 @@
             <div class="col-12 col-md-6">
                 <div class="box h-100">
                     <div class="header">
-                        <h1>Waar ik wil zijn</h1>
+                        <h1>Wo ich sein möchte?</h1>
                     </div>
                     <div class="content">
                         <p>
@@ -189,11 +205,12 @@
             <div class="col-12 col-md-6">
                 <div class="box h-100">
                     <div class="header">
-                        <h1>Neem contact op!</h1>
+                        <h1>Contact mir!</h1>
                     </div>
                     <div class="content">
                         <p>
-                            Je kunt contact met me opnemen via e-mail op: <a href="mailto:102710@glr.nl">102710@glr.nl</a>
+                            Je kunt contact met me opnemen via e-mail op: <a
+                                href="mailto:102710@glr.nl">102710@glr.nl</a>
                         </p>
                     </div>
                 </div>
