@@ -1,8 +1,9 @@
 .card {
-    width: 18rem;
+    width: 20rem;
     background-color: var(--secondary-color);
     border: solid var(--primary-color) 5px;
     transition: all 0.3s ease-in-out;
+    margin: 0.5rem;
     
 }
 .card:hover {

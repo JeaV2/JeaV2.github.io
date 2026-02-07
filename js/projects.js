@@ -44,14 +44,15 @@ async function createProjectCards() {
             `;
             } else {warn(project.title, 'image');}
             cardHTML += `
-            <div class="card-body">
-                <h5 class="card-title">${project.title}</h5>
-                <p class="card-text">${project.description.lang[lang]}</p>
+            <div class="card-body d-flex flex-column justify-content-between">
+                <div>
+                    <h5 class="card-title">${project.title}</h5>
+                    <p class="card-text">${project.description.lang[lang]}</p>
             `;
             for (const tag of project.tags) {
                 cardHTML += `<span class="badge badge-tag text-dark me-1 mb-1">${tag}</span>`;
             }
-            cardHTML += `<br>`;
+            cardHTML += `</div><div>`;
 
             if (project.link) {
                 cardHTML += `<a href="${project.link}" class="btn btn-primary" target="_blank" rel="noopener noreferrer">${buttonText[lang].viewProject}</a>`;
@@ -61,7 +62,7 @@ async function createProjectCards() {
                 cardHTML += `<a href="${project.github}" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">${buttonText[lang].viewOnGitHub}</a>`;
             } else {console.warn(`No GitHub link for project: ${project.title}`);}
             
-            cardHTML += `</div>`;
+            cardHTML += `</div></div>`;
             
             card.innerHTML = cardHTML;
             projectsContainer.appendChild(card);

@@ -5,7 +5,8 @@
             "title": "Portfolio Website",
             "description": {"lang": {
                 "en": "My personal portfolio website with information about me, my skills and my projects.",
-                "nl": "Mijn persoonlijke portfolio website met informatie over mij, mijn vaardigheden en mijn projecten."
+                "nl": "Mijn persoonlijke portfolio website met informatie over mij, mijn vaardigheden en mijn projecten.",
+                "de": "Meine persönliche Portfolio-Website mit Informationen über mich, meine Fähigkeiten und meine Projekte."
             }},
             "link": "https://jeav2.github.io/",
             "github": "https://github.com/JeaV2/JeaV2.github.io",
@@ -16,7 +17,8 @@
             "title": "Goober OS",
             "description": {"lang": {
                 "en": "A linux like \"Web OS\" command line operating system made in JavaScript, HTML and CSS for a make-a-thon.",
-                "nl": "Een Linux-achtige \"Web OS\" commandoregel besturingssysteem gemaakt in JavaScript, HTML en CSS voor een make-a-thon van school."
+                "nl": "Een Linux-achtige \"Web OS\" commandoregel besturingssysteem gemaakt in JavaScript, HTML en CSS voor een make-a-thon van school.",
+                "de": "Ein Linux-ähnliches \"Web OS\" Kommandozeilen-Betriebssystem, das in JavaScript, HTML und CSS für einen Make-a-thon der Schule erstellt wurde."
             }},
             "link": "https://jeav2.github.io/gooberos/",
             "github": "https://github.com/JeaV2/gooberos",
@@ -27,7 +29,8 @@
             "title": "Color Cat",
             "description": {"lang": {
                 "en": "A command line script made in Python that displays formatted text in colors in the terminal.",
-                "nl": "Een opdrachtregel script gemaakt in Python dat geformatteerde tekst in kleuren in de terminal weergeeft."
+                "nl": "Een opdrachtregel script gemaakt in Python dat geformatteerde tekst in kleuren in de terminal weergeeft.",
+                "de": "Ein Befehlszeilenskript, das in Python erstellt wurde und formatierte Texte in Farben im Terminal anzeigt."
             }},
             "link": "",
             "github": "https://github.com/AstralVRZ/colorcat",
@@ -38,11 +41,48 @@
             "title": "Mission to Mars",
             "description": {"lang": {
                 "en": "A concept for an inflight entertainment system for spaceflights to mars, I made this with a team of classmates for a school project.",
-                "nl": "Een concept voor een inflight entertainment systeem voor ruimtevluchten naar Mars, ik heb dit gemaakt met een team van klasgenoten voor een schoolproject."
+                "nl": "Een concept voor een inflight entertainment systeem voor ruimtevluchten naar Mars, ik heb dit gemaakt met een team van klasgenoten voor een schoolproject.",
+                "de": "Ein Konzept für ein Inflight-Entertainment-System für Raumflüge zum Mars, das ich mit einem Team von Klassenkameraden für ein Schulprojekt erstellt habe."
             }},
             "link": "https://jeav2.github.io/teamblue/",
             "github": "https://github.com/JeaV2/teamblue",
             "tags": ["JavaScript", "HTML", "CSS"]
+        },
+        {
+            "img": "media/img/project/jgl.png",
+            "title": "Jea's Game List",
+            "description": {"lang": {
+                "en": "A website I created for a school assignment, where we had to make a CRUD application in PHP. I chose to make a game list where I can add, delete, and edit games.",
+                "nl": "Een website die ik heb gemaakt voor een schoolopdracht, we moesten een CRUD applicatie maken in PHP, ik heb ervoor gekozen om een game lijst te maken waar ik games aan kan toevoegen, verwijderen en bewerken.",
+                "de": "Eine Website, die ich für eine Schulaufgabe erstellt habe, bei der wir eine CRUD-Anwendung in PHP erstellen mussten. Ich habe mich entschieden, eine Spielerliste zu erstellen, in der ich Spiele hinzufügen, löschen und bearbeiten kann."
+            }},
+            "link": "https://102710.stu.sd-lab.nl/gamedb/",
+            "github": "https://github.com/JeaV2/program2/tree/main/crud",
+            "tags": ["JavaScript", "HTML", "CSS", "PHP", "MySQL"]
+        },
+        {
+            "img": "media/img/project/rda.png",
+            "title": "Rairaiken Delivery App",
+            "description": {"lang": {
+                "en": "This is a desktop application that I made with a classmate for a school project. I made the backend in PHP and MySQL, the frontend fetches the data from my self written API. You can download the compiled version of the app for Windows and Linux from the GitHub page, for MacOS you have to download the source code and compile it yourself.",
+                "nl": "Dit is een desktop applicatie die ik met een klasgenoot heb gemaakt voor een schoolproject. Ik heb de backend gemaakt in PHP en MySQL, de frontend haalt de data op uit mijn zelf geschereven API. Je kunt de gecompileerde versie van de app downloaden voor Windows en Linux van de GitHub pagina, voor MacOS moet je de broncode downloaden en zelf compileren.",
+                "de": "Dies ist eine Desktop-Anwendung, die ich mit einem Klassenkameraden für ein Schulprojekt erstellt habe. Ich habe das Backend in PHP und MySQL erstellt, das Frontend ruft die Daten von meiner selbst geschriebenen API ab. Sie können die kompilierte Version der App für Windows und Linux von der GitHub-Seite herunterladen, für MacOS müssen Sie den Quellcode herunterladen und selbst kompilieren."
+
+            }},
+            "github": "https://github.com/JojosBizarreCoding/rairaiken-delivery-app",
+            "tags": ["Electron", "JavaScript", "HTML", "CSS", "Node.js", "PHP", "MySQL"]
+        },
+        {
+            "img": "media/img/project/cb.png",
+            "title": "city.blend",
+            "description": {"lang": {
+                "en": "For a school assignment, I had to create 3D models in Blender with a group of classmates, everyone had to make their own model and we combined them into a city. I made the brown building with 2 floors, and I combined all the models together.",
+                "nl": "Voor een school opdracht moesten ik met een groepje klasgenoten 3D moddellen maken in Blender, iedereen moest een eigen model maken en die hebben we samengevoegd tot een stad. Ik heb het bruine gebouw met 2 verdiepingen gemaakt, en ik hab alle modellen samengevoegd.",
+                "de": "Für eine Schulaufgabe musste ich mit einer Gruppe von Klassenkameraden 3D-Modelle in Blender erstellen, jeder musste sein eigenes Modell erstellen und wir haben sie zu einer Stadt zusammengefügt. Ich habe das braune Gebäude mit 2 Stockwerken erstellt und alle Modelle zusammengefügt."
+            }},
+            "link": "https://jeav2.github.io/creacod2_city3dm/",
+            "github": "https://github.com/JeaV2/creacod2_city3dm",
+            "tags": ["JavaScript", "Three.js", "3D Modeling", "Blender"]
         }
     ]
 }
