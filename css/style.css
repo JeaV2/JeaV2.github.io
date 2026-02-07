@@ -16,18 +16,19 @@ body {
             var(--primary-color) 40%,
             var(--secondary-color) 45%,
             var(--dark-gray) 65%) fixed;
-    margin: 0 2em;
+    margin: 0 2rem;
+    
 }
 
-.container-fluid  {
+.container-fluid {
     padding: 0 !important;
 }
 
 .box {
     background-color: var(--background-color);
     border: solid var(--secondary-color) 5px;
-    border-radius: 1em;
-    box-shadow: var(--primary-color) 0.4em 0.4em 0.7em;
+    border-radius: 1rem;
+    box-shadow: var(--primary-color) 0.4rem 0.4rem 0.7rem;
     overflow: hidden;
 }
 
@@ -35,19 +36,19 @@ body {
     text-align: center;
     color: var(--secondary-color);
     font-family: SFDigitalReadout, sans-serif;
-    text-shadow: var(--secondary-color) 0.1em 0.1em 0.5em;
-    box-shadow: 0px 15px 1em -15px var(--primary-color);
-    padding: 0.25em 0;
+    text-shadow: var(--secondary-color) 0.1rem 0.1rem 0.5rem;
+    box-shadow: 0px 15px 1rem -15px var(--primary-color);
+    padding: 0.25rem 0;
 }
 .header h1 {
-    font-size: 3em;
+    font-size: 3rem;
 }
 
 .content p {
     font-family: raster;
-    margin: 1em;
+    margin: 1rem;
     color: var(--primary-color);
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 .selfie {
@@ -62,15 +63,27 @@ body {
     .box.h-100 {
         height: auto !important;
     }
+
     .selfie {
         max-height: 200px;
         width: auto;
         display: block;
-        margin: 1em auto;
+        margin: 1rem auto;
         border: solid var(--primary-color) 3px;
-        border-radius: 1em;
+        border-radius: 1rem;
     }
+
     #wireframe {
         display: none;
     }
+}
+
+.bi {
+    display: inline-block;
+    transition: transform 300ms ease, filter 300ms ease;
+    transform-origin: center;
+}
+
+.bi:hover {
+    transform: rotate(1deg) scale(1.05);
 }
