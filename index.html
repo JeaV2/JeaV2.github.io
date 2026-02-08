@@ -9,6 +9,7 @@
     <!-- Stylesheets -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
@@ -42,39 +43,38 @@
 
 <body>
     <nav class="navbar navbar-expand-lg sticky-top">
-            <a class="navbar-brand" href="#">
-                <img src="./media/img/icons/computer.gif" alt="" class="d-inline-block align-text-top">
-                JeaV2, Creative Software Developer
-            </a>
-            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./projects/">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./cv/">CV</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Languages
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item active">EN</a></li>
-                            <li><a class="dropdown-item" href="./nl/">NL</a></li>
-                            <li><a class="dropdown-item" href="./de/">DE</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
+        <a class="navbar-brand" href="#">
+            <img src="./media/img/icons/computer.gif" alt="" class="d-inline-block align-text-top">
+            JeaV2, Creative Software Developer
+        </a>
+        <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./projects/">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./cv/">CV</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Languages
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item active">EN</a></li>
+                        <li><a class="dropdown-item" href="./nl/">NL</a></li>
+                        <li><a class="dropdown-item" href="./de/">DE</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
         </div>
     </nav>
     <div class="container-fluid">
@@ -162,7 +162,7 @@
         </div>
 
         <div class="row g-3 my-3 align-items-stretch">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-9">
                 <div class="box h-100">
                     <div class="header">
                         <h1>Where I would like to be</h1>
@@ -174,19 +174,52 @@
                             However, I also like to work on the frontend and make things look nice from time to time
                             <sup>(as you can see on this website)</sup>.
                         </p>
+                        <div class="header">
+                            <h1>What I would like to learn</h1>
+                        </div>
+                        <p>
+                            During an internship or a job, I would like to learn more about <span class="php">PHP</span>
+                            and
+                            PHP frameworks like <span class="php">Laravel</span> since I've not had the chance to work
+                            with
+                            it yet.
+                            <br>
+                            I'd also like to learn how actual production codebases work and look like and how to work in
+                            a team of developers, since on school we emulated it, but its not the same as the real deal.
+                        </p>
                     </div>
                 </div>
 
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-3">
                 <div class="box h-100">
                     <div class="header">
                         <h1>Contact me</h1>
                     </div>
                     <div class="content">
-                        <p>
-                            You can contact me via email at: <a href="mailto:102710@glr.nl">102710@glr.nl</a>
-                        </p>
+                        Feel free to contact me via:
+                        <div class="d-flex flex-column flex-wrap gap-3">
+                            <div>
+                                <icon class="bi bi-envelope-at-fill">
+                                    : <a href="mailto:102710@glr.nl" target="_blank">102710@glr.nl</a>
+                                </icon>
+                            </div>
+                            <div>
+                                <icon class="bi bi-file-earmark-person-fill"> 
+                                    : <a href="https://www.xing.com/profile/Jea_vanZoelen/" target="_blank">Xing profile</a>
+                                </icon>
+                            </div>
+                            <div>
+                                <icon class="bi bi-github"> 
+                                    : <a href="https://github.com/JeaV2" target="_blank">GitHub profile</a>
+                                </icon>
+                            </div>
+                            <div>
+                                <icon class="bi bi-linkedin"> 
+                                    : <a href="https://www.linkedin.com/in/jea-van-zoelen/" target="_blank">LinkedIn profile</a>
+                                </icon>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
