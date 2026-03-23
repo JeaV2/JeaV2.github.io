@@ -47,3 +47,13 @@
     -webkit-text-fill-color: transparent;
     font-weight: bold;
 }
+
+.windows {
+    color: #0079D5;
+    font-weight: bold;
+}
+
+.linux {
+    color: #FCC624;
+    font-weight: bold;
+}
