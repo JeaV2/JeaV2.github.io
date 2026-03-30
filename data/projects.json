@@ -13,16 +13,16 @@
             "tags": ["HTML", "CSS", "Bootstrap", "JavaScript"]
         },
         {
-            "img": "media/img/project/gooberos.jpg",
-            "title": "Goober OS",
+            "img": "media/img/project/rtree.png",
+            "title": "rtree",
             "description": {"lang": {
-                "en": "A linux like \"Web OS\" command line operating system made in JavaScript, HTML and CSS for a make-a-thon.",
-                "nl": "Een Linux-achtige \"Web OS\" commandoregel besturingssysteem gemaakt in JavaScript, HTML en CSS voor een make-a-thon van school.",
-                "de": "Ein Linux-ähnliches \"Web OS\" Kommandozeilen-Betriebssystem, das in JavaScript, HTML und CSS für einen Make-a-thon der Schule erstellt wurde."
+                "en": "A Directory listing program written in Rust, inspired by the Unix tree command.",
+                "nl": "Een directory listing programma geschreven in Rust, geïnspireerd door het Unix tree commando.",
+                "de": "Ein Verzeichnisauflistungsprogramm, das in Rust geschrieben wurde und vom Unix tree Befehl inspiriert ist."
             }},
-            "link": "https://jeav2.github.io/gooberos/",
-            "github": "https://github.com/JeaV2/gooberos",
-            "tags": ["JavaScript", "HTML", "CSS"]
+            "link": "",
+            "github": "https://github.com/JeaV2/rtree",
+            "tags": ["Rust", "CLI", "Terminal", "Directory Listing", "Text Formatting"]
         },
         {
             "img": "media/img/project/colorcat.png",
@@ -34,18 +34,18 @@
             }},
             "link": "",
             "github": "https://github.com/AstralVRZ/colorcat",
-            "tags": ["Python", "CLI", "Terminal"]
+            "tags": ["Python", "CLI", "Terminal", "Text Formatting"]
         },
-        {
-            "img": "media/img/project/mtm.png",
-            "title": "Mission to Mars",
+                {
+            "img": "media/img/project/gooberos.jpg",
+            "title": "Goober OS",
             "description": {"lang": {
-                "en": "A concept for an inflight entertainment system for spaceflights to mars, I made this with a team of classmates for a school project.",
-                "nl": "Een concept voor een inflight entertainment systeem voor ruimtevluchten naar Mars, ik heb dit gemaakt met een team van klasgenoten voor een schoolproject.",
-                "de": "Ein Konzept für ein Inflight-Entertainment-System für Raumflüge zum Mars, das ich mit einem Team von Klassenkameraden für ein Schulprojekt erstellt habe."
+                "en": "A linux like \"Web OS\" command line operating system made in JavaScript, HTML and CSS for a make-a-thon.",
+                "nl": "Een Linux-achtige \"Web OS\" commandoregel besturingssysteem gemaakt in JavaScript, HTML en CSS voor een make-a-thon van school.",
+                "de": "Ein Linux-ähnliches \"Web OS\" Kommandozeilen-Betriebssystem, das in JavaScript, HTML und CSS für einen Make-a-thon der Schule erstellt wurde."
             }},
-            "link": "https://jeav2.github.io/teamblue/",
-            "github": "https://github.com/JeaV2/teamblue",
+            "link": "https://jeav2.github.io/gooberos/",
+            "github": "https://github.com/JeaV2/gooberos",
             "tags": ["JavaScript", "HTML", "CSS"]
         },
         {
@@ -61,6 +61,18 @@
             "tags": ["JavaScript", "HTML", "CSS", "PHP", "MySQL"]
         },
         {
+            "img": "media/img/project/cb.png",
+            "title": "city.blend",
+            "description": {"lang": {
+                "en": "For a school assignment, I had to create 3D models in Blender with a group of classmates, everyone had to make their own model and we combined them into a city. I made the brown building with 2 floors, and I combined all the models together.",
+                "nl": "Voor een school opdracht moesten ik met een groepje klasgenoten 3D moddellen maken in Blender, iedereen moest een eigen model maken en die hebben we samengevoegd tot een stad. Ik heb het bruine gebouw met 2 verdiepingen gemaakt, en ik hab alle modellen samengevoegd.",
+                "de": "Für eine Schulaufgabe musste ich mit einer Gruppe von Klassenkameraden 3D-Modelle in Blender erstellen, jeder musste sein eigenes Modell erstellen und wir haben sie zu einer Stadt zusammengefügt. Ich habe das braune Gebäude mit 2 Stockwerken erstellt und alle Modelle zusammengefügt."
+            }},
+            "link": "https://jeav2.github.io/creacod2_city3dm/",
+            "github": "https://github.com/JeaV2/creacod2_city3dm",
+            "tags": ["JavaScript", "Three.js", "3D Modeling", "Blender"]
+        },
+        {
             "img": "media/img/project/rda.png",
             "title": "Rairaiken Delivery App",
             "description": {"lang": {
@@ -73,16 +85,16 @@
             "tags": ["Electron", "JavaScript", "HTML", "CSS", "Node.js", "PHP", "MySQL"]
         },
         {
-            "img": "media/img/project/cb.png",
-            "title": "city.blend",
+            "img": "media/img/project/mtm.png",
+            "title": "Mission to Mars",
             "description": {"lang": {
-                "en": "For a school assignment, I had to create 3D models in Blender with a group of classmates, everyone had to make their own model and we combined them into a city. I made the brown building with 2 floors, and I combined all the models together.",
-                "nl": "Voor een school opdracht moesten ik met een groepje klasgenoten 3D moddellen maken in Blender, iedereen moest een eigen model maken en die hebben we samengevoegd tot een stad. Ik heb het bruine gebouw met 2 verdiepingen gemaakt, en ik hab alle modellen samengevoegd.",
-                "de": "Für eine Schulaufgabe musste ich mit einer Gruppe von Klassenkameraden 3D-Modelle in Blender erstellen, jeder musste sein eigenes Modell erstellen und wir haben sie zu einer Stadt zusammengefügt. Ich habe das braune Gebäude mit 2 Stockwerken erstellt und alle Modelle zusammengefügt."
+                "en": "A concept for an inflight entertainment system for spaceflights to mars, I made this with a team of classmates for a school project.",
+                "nl": "Een concept voor een inflight entertainment systeem voor ruimtevluchten naar Mars, ik heb dit gemaakt met een team van klasgenoten voor een schoolproject.",
+                "de": "Ein Konzept für ein Inflight-Entertainment-System für Raumflüge zum Mars, das ich mit einem Team von Klassenkameraden für ein Schulprojekt erstellt habe."
             }},
-            "link": "https://jeav2.github.io/creacod2_city3dm/",
-            "github": "https://github.com/JeaV2/creacod2_city3dm",
-            "tags": ["JavaScript", "Three.js", "3D Modeling", "Blender"]
+            "link": "https://jeav2.github.io/teamblue/",
+            "github": "https://github.com/JeaV2/teamblue",
+            "tags": ["JavaScript", "HTML", "CSS"]
         }
     ]
 }
