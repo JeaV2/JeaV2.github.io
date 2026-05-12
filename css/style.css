@@ -32,6 +32,9 @@ body {
     border-radius: 1rem;
     box-shadow: var(--primary-color) 0.4rem 0.4rem 0.7rem;
     overflow: scroll;
+    /* hide scrollbar */
+    scrollbar-width: none;
+    -ms-overflow-style: none;
 }
 
 .header {
