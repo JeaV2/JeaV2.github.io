@@ -85,6 +85,16 @@
             "tags": ["Electron", "JavaScript", "HTML", "CSS", "Node.js", "PHP", "MySQL"]
         },
         {
+            "img": "media/img/project/sprites.png",
+            "title": "Combat Exosuit Thorn: Save the World",
+            "description": {"lang": {
+                "en": "A 2D pixel art bullet hell game, inspired by Touhou and Space Invaders, made in Godot for a make-a-thon, I made this with a team of friends and classmates. I made most of the sprites for the game and helped a lot with the programming.",
+                "nl": "Een 2D pixel art bullet hell game, geïnspireerd door Touhou en Space Invaders, gemaakt in Godot voor een make-a-thon, ik heb dit gemaakt met een team van vrienden en klasgenoten. Ik heb de meeste sprites voor het spel gemaakt en heb veel geholpen met het programmeren.",
+                "de": "Ein 2D Pixel Art Bullet Hell Spiel, inspiriert durch Touhou und Space Invaders, erstellt in Godot für einen Make-a-thon, ich habe dies mit einem Team von Freunden und Klassenkameraden erstellt. Ich habe die meisten Sprites für das Spiel erstellt und habe viel bei der Programmierung geholfen."
+            }},
+            "github": "https://github.com/JojosBizarreCoding/save-the-world",
+            "tags": ["Godot", "GDScript", "GDShader", "Game Development", "2D", "Pixel Art", "Make-a-thon"]},
+        {
             "img": "media/img/project/mtm.png",
             "title": "Mission to Mars",
             "description": {"lang": {
