@@ -8,8 +8,8 @@
                 "nl": "Mijn persoonlijke portfolio website met informatie over mij, mijn vaardigheden en mijn projecten.",
                 "de": "Meine persönliche Portfolio-Website mit Informationen über mich, meine Fähigkeiten und meine Projekte."
             }},
-            "link": "https://jeav2.github.io/",
-            "github": "https://github.com/JeaV2/JeaV2.github.io",
+            "link": "https://portfolio.jeav2.dev/",
+            "github": "https://github.com/JeaV2/portfolio.jeav2.dev",
             "tags": ["HTML", "CSS", "Bootstrap", "JavaScript"]
         },
         {
@@ -44,7 +44,7 @@
                 "nl": "Een Linux-achtige \"Web OS\" commandoregel besturingssysteem gemaakt in JavaScript, HTML en CSS voor een make-a-thon van school.",
                 "de": "Ein Linux-ähnliches \"Web OS\" Kommandozeilen-Betriebssystem, das in JavaScript, HTML und CSS für einen Make-a-thon der Schule erstellt wurde."
             }},
-            "link": "https://jeav2.github.io/gooberos/",
+            "link": "https://portfolio.jeav2.dev/gooberos/",
             "github": "https://github.com/JeaV2/gooberos",
             "tags": ["JavaScript", "HTML", "CSS", "Make-a-thon"]
         },
@@ -68,7 +68,7 @@
                 "nl": "Voor een school opdracht moesten ik met een groepje klasgenoten 3D moddellen maken in Blender, iedereen moest een eigen model maken en die hebben we samengevoegd tot een stad. Ik heb het bruine gebouw met 2 verdiepingen gemaakt, en ik hab alle modellen samengevoegd.",
                 "de": "Für eine Schulaufgabe musste ich mit einer Gruppe von Klassenkameraden 3D-Modelle in Blender erstellen, jeder musste sein eigenes Modell erstellen und wir haben sie zu einer Stadt zusammengefügt. Ich habe das braune Gebäude mit 2 Stockwerken erstellt und alle Modelle zusammengefügt."
             }},
-            "link": "https://jeav2.github.io/creacod2_city3dm/",
+            "link": "https://portfolio.jeav2.dev/creacod2_city3dm/",
             "github": "https://github.com/JeaV2/creacod2_city3dm",
             "tags": ["JavaScript", "Three.js", "3D Modeling", "Blender"]
         },
@@ -102,7 +102,7 @@
                 "nl": "Een concept voor een inflight entertainment systeem voor ruimtevluchten naar Mars, ik heb dit gemaakt met een team van klasgenoten voor een schoolproject.",
                 "de": "Ein Konzept für ein Inflight-Entertainment-System für Raumflüge zum Mars, das ich mit einem Team von Klassenkameraden für ein Schulprojekt erstellt habe."
             }},
-            "link": "https://jeav2.github.io/teamblue/",
+            "link": "https://portfolio.jeav2.dev/teamblue/",
             "github": "https://github.com/JeaV2/teamblue",
             "tags": ["JavaScript", "HTML", "CSS"]
         }
