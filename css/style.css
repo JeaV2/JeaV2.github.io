@@ -13,9 +13,9 @@
 body {
     background: radial-gradient(circle at center,
             var(--dark-gray),
-            var(--primary-color) 40%,
-            var(--secondary-color) 45%,
-            var(--dark-gray) 65%) fixed;
+            var(--primary-color) 25%,
+            var(--secondary-color) 30%,
+            var(--dark-gray) 50%) fixed;
     margin: 0 2rem;
     font-family: raster;
     color: var(--primary-color);
