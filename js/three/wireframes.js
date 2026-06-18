@@ -12,7 +12,7 @@ wireframeDiv.appendChild(renderer.domElement);
 
 const geometrySphere = new THREE.SphereGeometry(1, 12, 8);
 const wireframeSphere = new THREE.WireframeGeometry(geometrySphere);
-const geometryPyramid = new THREE.ConeGeometry(4, 8, 4, 7);
+const geometryPyramid = new THREE.ConeGeometry(4, 8, 4, 4);
 const wireframePyramid = new THREE.WireframeGeometry(geometryPyramid);
 const geometryCube = new THREE.BoxGeometry(1, 1, 1, 2, 2, 2);
 const wireframeCube = new THREE.WireframeGeometry(geometryCube);
